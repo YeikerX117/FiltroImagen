@@ -23,7 +23,7 @@ def filtro(imagen, c, s):
     return imagen
 img=cv2.imread("E:\INGENIERIA DE SISTEMAS\Ciencia de datos\Ejercicio Filtro\Imagenes\Prueba.png",0)
 #Colocar for anidado para recibir matrices
-mascara=np.array((3,3))
+mascara=np.zeros((3,3))
 for i in range(3)
     for j in range(3)
         mascara[i,j]=int(input("Ingrese el dato ["+str(i)+str(j)+"] de la matriz: "))
